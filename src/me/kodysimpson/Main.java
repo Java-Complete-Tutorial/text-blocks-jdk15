@@ -138,7 +138,7 @@ public class Main {
                 and some extra whitespace:                 \s
                 .""", "string");
 
-        //The new String.format() method is another way to do this.
+        //The new String.formatted() method is another way to do this.
         System.out.println("""
                 \nHey, my name is %s and I am %d years old.""".formatted("John", 25));
 
